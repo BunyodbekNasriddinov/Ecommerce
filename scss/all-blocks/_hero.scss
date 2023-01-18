@@ -1,0 +1,79 @@
+.carousel-inner {
+  border-radius: 26px !important;
+  overflow: hidden;
+}
+
+.carousel-item img {
+  min-height: 460px;
+}
+
+.hero {
+  margin-top: 34px;
+}
+
+.carousel-control-prev {
+  position: absolute;
+  top: 50%;
+  left: -24px;
+  width: 48px;
+  height: 48px;
+  background: #fff8eb !important;
+  border: 1px solid #fff1d6;
+  border-radius: 50%;
+  opacity: 1 !important;
+}
+
+.carousel-control-next {
+  position: absolute;
+  top: 50%;
+  right: -24px;
+  width: 48px;
+  height: 48px;
+  background: #fff8eb !important;
+  border: 1px solid #fff1d6;
+  border-radius: 50%;
+  opacity: 1 !important;
+}
+
+.right__card {
+  max-height: 220px;
+  background: radial-gradient(
+      55.5% 137.72% at 4.95% 0%,
+      #a9d288 0%,
+      #ceeeb5 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  border-radius: 26px;
+}
+
+.right__card-text {
+  width: 100%;
+  max-width: 145px;
+}
+
+.right__card-like {
+  padding: 75px 0 30px 20px;
+  width: 100%;
+  max-width: 226px;
+}
+
+.right__card-like p {
+  margin: 0;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 38px;
+  color: #3e5828;
+}
+
+.right__card-text p {
+  margin: 0;
+  padding: 75px 0 30px 20px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 38px;
+  color: #3e5828;
+}

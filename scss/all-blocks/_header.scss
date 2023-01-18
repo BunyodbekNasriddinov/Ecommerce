@@ -1,0 +1,130 @@
+.site-header__top {
+  padding: 12px 0;
+  background-color: #ff0000;
+}
+
+.top__btn {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  padding: 8px 20px;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 31px;
+}
+
+.top__text {
+  width: 100%;
+  max-width: 355px;
+}
+
+.top__desc {
+  padding: 0;
+  margin: 0;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.text__discount {
+  color: #ff0000;
+  background-color: #ffa900;
+  border-radius: 5px;
+  padding: 3px;
+  font-size: 14px;
+}
+
+.header-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.item__catalog {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ff0000;
+  padding: 14px 21px;
+  border-radius: 31px;
+}
+
+.item__catalog-txt {
+  margin: 0;
+  margin-left: 8px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.item__wrap {
+  display: flex;
+  justify-content: space-between;
+  background: #ffffff;
+  border: 1px solid #e1e1e1;
+  border-radius: 16px;
+  padding: 12px 15px 14px 15px;
+  background-color: #f2f2f2;
+}
+
+.item__input {
+  outline: none;
+  border: 0;
+  background-color: #f2f2f2;
+}
+
+.item__content {
+  width: 100%;
+  max-width: 400px;
+}
+
+.item__select {
+  border-radius: 15px;
+  cursor: pointer;
+  outline: none;
+}
+
+option {
+  border-radius: 15px !important;
+}
+
+.item__favorite {
+  cursor: pointer;
+  background: #ffffff;
+  border: 1px solid #e1e1e1;
+  border-radius: 16px;
+  border-radius: 16px;
+  width: 48px;
+  height: 48px;
+}
+
+.item__favorite-heart {
+  padding: 15px 14px 13px 14px;
+}
+
+.item__favorite-user {
+  padding: 15px 16px 13px 16px;
+}
+
+.item__basket {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ff0000;
+  padding: 15px 11px 14px 13px;
+  border-radius: 16px;
+}
